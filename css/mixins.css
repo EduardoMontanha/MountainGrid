@@ -1,5 +1,5 @@
 /* ===================== */
-/* Row */
+/* Rows */
 /* ===================== */
 .row {
 	min-width: 100%;
@@ -18,7 +18,7 @@
 }
 
 /* ===================== */
-/* Column */
+/* Columns */
 /* ===================== */
 .col {
 	position: relative;
@@ -29,7 +29,40 @@
 	float: none;
 }
 
-/* Gutter */
+/* Gutters */
 .col + .col {
 	margin-left: 1.5em;
+}
+
+/* Columns Span */
+.col.col-1 {
+	width: calc((100% - ((8 - 1) * 1.5em)) / 8);
+}
+
+.col.col-2 {
+	width: calc(2 * ((100% - ((8 - 1) * 1.5em)) / 8));
+}
+
+.col.col-3 {
+	width: calc(3 * ((100% - ((8 - 1) * 1.5em)) / 8));
+}
+
+.col.col-4 {
+	width: calc(4 * ((100% - ((8 - 1) * 1.5em)) / 8));
+}
+
+.col.col-5 {
+	width: calc(5 * ((100% - ((8 - 1) * 1.5em)) / 8));
+}
+
+.col.col-6 {
+	width: calc(6 * ((100% - ((8 - 1) * 1.5em)) / 8));
+}
+
+.col.col-7 {
+	width: calc(7 * ((100% - ((8 - 1) * 1.5em)) / 8));
+}
+
+.col.col-8 {
+	width: 100%;
 }

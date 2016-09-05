@@ -1,0 +1,28 @@
+.col {
+	height: 40px;
+}
+
+.col-1 {
+	background: red;
+}
+.col-2 {
+	background: blue;
+}
+.col-3 {
+	background: orange;
+}
+.col-4 {
+	background: green;
+}
+.col-5 {
+	background: yellow;
+}
+.col-6 {
+	background: gray;
+}
+.col-7 {
+	background: purple;
+}
+.col-8 {
+	background: pink;
+}
