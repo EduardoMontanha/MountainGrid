@@ -39,7 +39,11 @@
 	}
 
 	/* Columns Span */
-	/* (100% - ((num_columns - 1) * margin)) / num_columns) * span + ((span - 1) * margin) */
+	/*
+	 * nc -> number of columns
+	 * m -> margin
+	 * (100% - ((nc - 1) * m)) / nc) * span + ((span - 1) * m)
+	 */
 	.col.col-1 {
 		width: calc((100% - ((8 - 1) * 1.5em)) / 8);
 	}
