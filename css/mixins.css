@@ -38,8 +38,9 @@
 		margin-left: 1.5em;
 	}
 
-	/* Columns Span */
-	/*
+	/**
+	 * Columns Span:
+	 *
 	 * nc -> number of columns
 	 * m -> margin
 	 * (100% - ((nc - 1) * m)) / nc) * span + ((span - 1) * m)
