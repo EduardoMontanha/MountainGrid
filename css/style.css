@@ -1,28 +1,91 @@
-.col {
-	height: 40px;
+body {
+	font-family: Arial, sans-serif;
 }
 
-.col-1 {
-	background: red;
+/* ==================================== */
+/* Header */
+/* ==================================== */
+body > header {
+	height: 70px;
+	background-color: #666;
 }
-.col-2 {
-	background: blue;
+
+#logo {
+	height: 70px;
+	background-color: #333;
 }
-.col-3 {
-	background: orange;
+
+#masthead {
+	line-height: 70px;
+	color: #FFF;
 }
-.col-4 {
-	background: green;
+
+.menus li {
+	text-align: center;
+	line-height: 70px;
 }
-.col-5 {
-	background: yellow;
+
+.menus li a {
+	width: 100%;
+	height: 70px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	transition: all 0.2s ease;
 }
-.col-6 {
-	background: gray;
+
+.menus li a:hover{
+	background-color: #FFF;
+	color: #666;
 }
-.col-7 {
-	background: purple;
+
+/* ==================================== */
+/* Main */
+/* ==================================== */
+article {
+	padding: 50px;
+	overflow: auto;
 }
-.col-8 {
-	background: pink;
+
+h1 {
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 34px;
+	text-decoration: underline;
+}
+
+article h2 {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+/* ==================================== */
+/* Banners */
+/* ==================================== */
+aside {
+	margin-bottom: 50px;
+}
+
+.banner {
+	height: 200px;
+	background-color: #CCC;
+	text-align: center;
+	line-height: 200px;
+	font-weight: bold;
+}
+
+/* ==================================== */
+/* Banners */
+/* ==================================== */
+footer {
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	background-color: #333;
+	color: #FFF;
+}
+
+footer a {
+	color: #FFF;
 }
